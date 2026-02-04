@@ -1,0 +1,13 @@
+# Generated Doxygen HTML documentation
+html/
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Build artifacts
+*.o
+*.so
+*.a
+build/

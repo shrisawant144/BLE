@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  ble-dev:
+    build: .
+    privileged: true
+    network_mode: host
+    volumes:
+      - .:/workspace
+      - /var/run/dbus:/var/run/dbus
+    devices:
+      - /dev/bus/usb
+    environment:
+      - DISPLAY=${DISPLAY}
+    command: /bin/bash

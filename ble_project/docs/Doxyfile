@@ -1,0 +1,12 @@
+PROJECT_NAME           = "BLE Learning Project"
+OUTPUT_DIRECTORY       = html
+INPUT                  = ../central/examples ../peripheral/examples ../core
+RECURSIVE              = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = YES
+FILE_PATTERNS          = *.cpp *.c *.h
+EXCLUDE_PATTERNS       = */build/* */CMakeFiles/*
+HTML_OUTPUT            = .
